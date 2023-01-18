@@ -1,0 +1,108 @@
+/* Write your CSS here */
+.bg-container {
+  width: 70vw;
+  height: 100vh;
+  background-image: linear-gradient(to top, #9796f0, #fbc7d4);
+  padding: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  width: 95%;
+  background-color: #ffffff;
+  border-radius: 10px;
+}
+.appointment-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 24px;
+}
+
+.horizontal-line {
+  width: 95%;
+}
+
+* {
+  font-family: 'Roboto';
+}
+.title-heading {
+  font-size: 28px;
+  color: ;
+}
+.ul-container {
+  display: flex;
+  list-style-type: none;
+  flex-wrap: wrap;
+}
+.starredBtn-Container {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 10px;
+  margin-right: 10px;
+  align-items: center;
+}
+.starred-btn {
+  border-color: #8b5cf6;
+  border-width: 1px;
+  border-radius: 15px;
+  color: #8b5cf6;
+  min-width: 50px;
+  height: 20px;
+  margin-top: 10px;
+  font-size: 12px;
+  text-align: center;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.title {
+  font-size: 12px;
+  color: #b5b7c4;
+  margin-bottom: 0px;
+  margin-top: 15px;
+}
+.input-box {
+  min-width: 250px;
+  font-size: 10px;
+  padding: 8px;
+  border-color: #b5b7c4;
+  border-radius: 5px;
+  border-width: 1px;
+  outline: none;
+  margin-bottom: 15px;
+}
+.add-btn {
+  margin-top: 20px;
+  background-color: #8b5cf6;
+  border-width: 0px;
+  border-style: solid;
+  border-radius: 5px;
+  color: #ffffff;
+  font-size: 12px;
+  padding-left: 10px;
+  padding-right: 10px;
+  height: 28px;
+}
+.image {
+  width: 350px;
+  height: 200px;
+}
+.appointment-name {
+  font-size: 20px;
+  color: #171f46;
+}
+.starred-btn-clicked {
+  background-color: #8b5cf6;
+  border-width: 0px;
+  border-radius: 15px;
+  color: #ffffff;
+  min-width: 50px;
+  height: 20px;
+  margin-top: 10px;
+  font-size: 12px;
+  text-align: center;
+  padding-left: 20px;
+  padding-right: 20px;
+}
